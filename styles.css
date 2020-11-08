@@ -1,0 +1,150 @@
+body {
+  background-color: #794c74;
+  margin: 0;
+  text-align: center;
+  font-family: fantasy, monospace;
+  font-size: 2rem;
+  /*font set in body, affects p element as well, everything besides h1, as body affects all unless otherwise specified*/
+}
+
+ul{
+  line-height: 1;
+  text-align:left;
+  font-size:1rem;
+  float:left;
+
+}
+
+h1 {
+  color: #b2deec;
+  margin: 100px auto 0 auto;
+  font-family: 'Lacquer', cursive;
+  font-size: 4rem;
+  line-height: 1;
+  /*font family set for h1 spefically, link in html in head*/
+}
+
+h2 {
+  color: #fadcaa;
+  font-size: 2.0rem;
+  font-weight: normal;
+  margin:0 0 10px 0;
+
+}
+
+h3{
+  font-size:1.4rem;
+  text-align:center;
+  margin:10px 50px 10px 50px;
+}
+
+
+
+div {
+  background-color: #794c74;
+  padding:20px;
+}
+
+a {
+  color: #150485;
+  font-size: 1.2rem;
+  margin:0 5px;
+}
+
+
+
+p{
+  font-size:1rem;
+
+}
+
+
+
+.anna-professional-photo {
+  width:10%;
+  margin:auto;
+}
+
+.bottom-cloud {
+  position: absolute;
+  width: 16%;
+  left: 160px;
+}
+
+.bottom-container{
+  margin:auto;
+  font-size: 1.5rem;
+  color:#c56183;
+}
+.contact-me{
+  font-size:1.7rem;
+  text-align:center;
+  margin:auto;
+
+}
+.end-tag{
+  font-size:1rem;
+}
+
+.list-a{
+  width:50%;
+}
+
+.list-b{
+  width:50%;
+}
+
+.profile{
+  width:100%;
+  background-color: #794c74;
+  margin: 0 10px 160px 10px;
+}
+/*.mountain-img{
+  background-color: #794c74;
+  position: relative;
+  padding-top: 46px;
+}
+this is already declared in parent element - just pasted here to see if giving these properties to the class would affect
+*/
+
+
+.sawyer-anna-pic {
+  width:25%;
+  float:left;
+  border:1px black solid;
+  margin:0 20px;
+}
+
+.sawyer-birthday {
+  width:25%;
+  float:right;
+  border:1px black solid;
+  margin:10px;
+}
+
+/*.skills{
+  width:50%;
+  margin:0 0 40px 0;
+}*/
+
+.skills{
+  margin:20px 300px 10px 300px;
+
+}
+.skill-row{
+  margin: 0 0 160px 0;
+}
+
+
+.top-cloud {
+  position: absolute;
+  width: 10%;
+  margin: 10px 100px auto 200px;
+}
+
+.top-container {
+  background-color: #794c74;
+  position: relative;
+  padding-top: 46px;
+
+}
